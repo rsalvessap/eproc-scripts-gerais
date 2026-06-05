@@ -907,7 +907,7 @@
                     color: #333;
                 }
                 #remigrar-hud-header {
-                    background: #2168B5;
+                    background: #0887b2;
                     color: #fff;
                     display: flex;
                     justify-content: space-between;
@@ -941,7 +941,7 @@
                     padding: 10px;
                 }
                 .remigrar-section-title {
-                    color: #2168B5;
+                    color: #0887b2;
                     font-weight: bold;
                     font-size: 11px;
                     text-transform: uppercase;
@@ -969,9 +969,10 @@
                     cursor: not-allowed;
                 }
                 .remigrar-btn-primary {
-                    background: #2e7d32;
+                    background: #006ba0;
                     color: white;
                 }
+                .remigrar-btn-primary:hover:not(:disabled) { background: #005a87; }
                 .remigrar-btn-warning {
                     background: #bf6000;
                     color: white;
@@ -991,7 +992,7 @@
                     display: block;
                     width: 100%;
                     padding: 8px;
-                    background: #2168B5;
+                    background: #0887b2;
                     color: white;
                     font-weight: bold;
                     cursor: pointer;
@@ -1183,7 +1184,7 @@
                 }
                 .mode-tab:last-child { border-right: none; }
                 .mode-tab.active {
-                    background: #2168B5;
+                    background: #0887b2;
                     color: #fff;
                 }
                 .mode-tab:hover:not(.active) { background: #e8e8e8; }
